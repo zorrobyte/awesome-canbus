@@ -86,6 +86,8 @@ permanent URL: https://github.com/iDoka/awesome-canbus
 * [Carpunk](https://github.com/souravbaghz/Carpunk) - CAN injection toolkit and successor of CANghost.
 * [CANghost](https://github.com/souravbaghz/CANghost) - Automated Script For Hacking Into CAN Bus.
 * [canTot](https://github.com/shipcod3/canTot) - Quick and dirty canbus h4xing framework.
+* [CANanalyze](https://github.com/renault/cananalyze) - This framework can be used to interact with automotive protocols like CAN/ISOTP/UDS.
+* [Scapy](https://github.com/secdev/scapy) - Python-based interactive packet manipulation program & library. Supports CAN/ISOTP/UDS/GMLAN plus many other protocols.
 
 
 ## Utils
@@ -209,6 +211,7 @@ permanent URL: https://github.com/iDoka/awesome-canbus
 * [go-socketcan](https://github.com/linklayer/go-socketcan) - Golang library for SocketCAN.
 * [Qt CAN Bus](https://doc.qt.io/qt-5/qtcanbus-backends.html) - A multiplatform C++ plugin based library with support for various CAN Devices (SocketCAN, Sys Tec, PEAK, Virtual).
 * [JavaCAN](https://github.com/pschichtel/JavaCAN) - A Java binding library for SocketCAN with support for RAW, BCM and ISO-TP sockets using epoll-based event-driven IO.
+* [iso15765-canbus](https://github.com/devcoons/iso15765-canbus) -  Implementation of ISO15765-2 in C.
 
 
 ### Examples
@@ -260,6 +263,7 @@ permanent URL: https://github.com/iDoka/awesome-canbus
 * [dbc-parser](https://github.com/msalau/dbc-parser) - A Flex/Bison/Lemon parser/scanner for DBC files.
 * [Vector CANdb++ DBC file parser](https://github.com/kdschlosser/vector_dbc) - Modified version of the dbc file parser of eerimoq.
 * [dbc_reader](https://github.com/autti/dbc_reader) - Virtual can bus reader from dbc file (python).
+* [CAN_BUS_DBC_VIEWER](https://github.com/akshaych92/CAN_BUS_DBC_VIEWER) - GUI based CAN bus dbc viewer.
 
 
 
@@ -297,6 +301,7 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * [stm32-slcan](https://github.com/walmis/stm32-slcan) - SLCAN compatible firmware for BluePill based on STM32f103C8T6.
 * 🔝[STM32duino_CAN_Library](https://github.com/adamczykpiotr/STM32duino_CAN_Library) - CanBus library for STM32F103 running on STM32duino.
 * [CANBUS_UART](https://github.com/Oktay97/Canbus_Uart) - CANBUS to UART for STM32F1 (BluePill and Nucleo boards).
+* [Open-OBD2-datalogger](https://github.com/arturlangner/Open-OBD2-datalogger) - NXP Kinetis E datalogger that saves live engine data to SD card (Visualization is done with HTML5 and JavaScript).
 
 
 #### STM32F042x based HW
@@ -310,6 +315,7 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * [CANAlyze](https://kkuchera.github.io/canalyze/) - An open source, native CAN interface for Linux that can be built entirely using open source tools, use [canalyze-fw](https://github.com/kkuchera/canalyze-fw) as firmware source.
 * [Cantact FW](https://github.com/x893/cantact-fw) - Cantact FirmWare by x893.
 * [ELM329](https://github.com/ObdDiag-Net/elm329) - Open-source ELM329 OBD adapter based on STM32F042.
+* [OBD2CAN](https://github.com/autosportlabs/OBD2CAN) - Bridge between any OBD2 compliant vehicle and the CAN bus interface (firmware is targeted for the STM32F072, and uses ChibiOS as a RTOS).
 
 
 ### Arduino
@@ -330,6 +336,9 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * [arduino-mcp2515](https://github.com/autowp/arduino-mcp2515) - Arduino MCP2515 CAN interface library.
 * [slcanuino](https://github.com/kahiroka/slcanuino) - USB-CAN (SocketCAN) sketch for Arduino CAN-BUS shield.
 * [CITM02](https://github.com/BXProject/CITM02) - CAN In The Middle (CITM) the Dual channel CANBUS adapter built around Arduino.
+* [arduino-OBD2](https://github.com/sandeepmistry/arduino-OBD2) - Arduino library for reading OBD-II data from your car over CAN bus.
+* [arduino-ecu-logger](https://github.com/ihaque/arduino-ecu-logger) - Arduino-based OBD2 engine monitor and data logger.
+
 
 
 ### Espressif Systems (ESP8266, ESP32)
@@ -346,7 +355,8 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * [esp32-canbus-logger](https://github.com/scipioni/esp32-canbus-logger) - CAN bus logger on uSD-card based on ESP32.
 * 🔝[ESP32_CANViewer](https://github.com/Cellgalvano/ESP32_CANViewer) -  ESP32 based CAN interface for your webbrowser.
 * [esp-idf-can2http](https://github.com/nopnop2002/esp-idf-can2http) -  CANbus to http bridge using ESP32.
-
+* [esp32-obd2-emulator](https://github.com/limiter121/esp32-obd2-emulator) - Open-source OBD-II emulator based on an ESP32 + CAN transceiver IC, controllable via WiFi through a simple web UI (or via API).
+* [RejsaCAN-ESP32](https://github.com/MagnusThome/RejsaCAN-ESP32) - ESP32-S3 board with CAN interface.
 
 ### SBC
 **SBC** - Single Board Computers.
@@ -361,6 +371,7 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * [Michrochip CAN BUS Analyzer on PIC18F2550/PIC18F2680 Firmware](https://github.com/rkollataj/mcba_firmware) - Michrochip CAN BUS Analyzer firmware.
 * [Michrochip CAN BUS Analyzer on PIC18F2550/PIC18F2680 Driver](https://github.com/rkollataj/mcba_usb) - Linux kernel driver for Microchip CAN BUS Analyzer Tool.
 * [BB-to-STM32](https://github.com/mvollrath/canbus_bbone_stm32) - LED sync between BeagleBone Black and STM32F4 Discovery Board.
+* [elm327_clone](https://github.com/darkspr1te/elm327_clone) - ELM327 firmware for pic18f25k80 chip from china clone OBD2.
 
 
 ### Hardware related tools
